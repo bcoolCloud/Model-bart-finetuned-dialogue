@@ -1,0 +1,13 @@
+# ignorer les gros fichiers de modèle
+
+model.safetensors
+training_arg.bin
+
+# Ignorer les fichiers temporaires et systèmes
+*.log
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Ignorer les fichiers de cache
+*.cache
